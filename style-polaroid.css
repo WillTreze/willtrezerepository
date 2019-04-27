@@ -17,7 +17,7 @@
 
 .objectImage {
     width: 120%;
-    height: 320px;
+    height: 334px;
     object-fit: cover;
     object-position: center;
 }
@@ -27,7 +27,7 @@ div.polaroid {
    height: 406px;
    background-color: white;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   margin: -5px;
+   margin: -5.5px;
 }
 
 div.container {
@@ -35,5 +35,5 @@ div.container {
   font-family: Trebuchet MS;
   font-size: 25px;
   padding: 0px;
-  margin-top: -2.6px;
+  margin-top: -4.5px;
 }
