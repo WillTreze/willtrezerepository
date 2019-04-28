@@ -1,4 +1,4 @@
- <!-- ocultar barra de rolagem -->
+ /* ocultar barra de rolagem */
     ::-webkit-scrollbar {
      width: 0px;
     }
