@@ -84,14 +84,14 @@
 .overlayFade#img1{
    position: absolute;
    z-index: 3;
-   border: -18px solid white;
+   border: -18px;
    border-radius: 2px ;
    padding: 0px;
    width: 199px;
    height: 278px;
    margin: 20px 0px 0px 27px;
    background-color: rgba(0, 0, 0, 0.4);
-	-webkit-transform: rotate(-10deg);
+   -webkit-transform: rotate(-10deg);
    -ms-transform: rotate(-10deg);
    transform: rotate(-10deg);
 }
@@ -99,7 +99,7 @@
 .overlayFade#img2{
    position: absolute;
    z-index: 2;
-   border: -18px solid white;
+   border: -18px;
    border-radius: 2px ;
    padding: 0px;
    width: 199px;
@@ -114,7 +114,7 @@
 .overlayFade#img3{
    position: absolute;
    z-index: 1;
-   border: -18px solid white;
+   border: -18px;
    border-radius: 2px ;
    padding: 0px;
    width: 199px;
@@ -129,7 +129,7 @@
 .overlayFade#img4{
    position: absolute;
    z-index: 0;
-   border: -18px solid white;
+   border: -18px;
    border-radius: 2px ;
    padding: 0px;
    width: 199px;
