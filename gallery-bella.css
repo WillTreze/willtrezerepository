@@ -81,7 +81,7 @@
     opacity: 1;
 }
 
-.overlayFade#img1{
+.overlayFade#overlay1{
    position: absolute;
    z-index: 3;
    border: -18px;
@@ -96,7 +96,7 @@
    transform: rotate(-10deg);
 }
 
-.overlayFade#img2{
+.overlayFade#overlay2{
    position: absolute;
    z-index: 2;
    border: -18px;
@@ -111,7 +111,7 @@
   transform: rotate(10deg);
 }
 
-.overlayFade#img3{
+.overlayFade#overlay3{
    position: absolute;
    z-index: 1;
    border: -18px;
@@ -126,7 +126,7 @@
   transform: rotate(-10deg);
 }
 
-.overlayFade#img4{
+.overlayFade#overlay4{
    position: absolute;
    z-index: 0;
    border: -18px;
