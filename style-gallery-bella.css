@@ -140,3 +140,66 @@
   -ms-transform: rotate(10deg);
   transform: rotate(10deg);
 }
+
+.text1 {
+    color: white;
+    font-size: 29px;
+    position: absolute;
+	text-align: center;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Codystar', cursive;
+}
+
+.text2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+	text-align: center;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Codystar', cursive;
+}
+
+.text3 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+	text-align: center;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Codystar', cursive;
+}
+
+.model { /* nome da modelo */
+    color: white;
+    font-size: 20px;
+	margin: 20px 0 35px 0;
+	text-align: center;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.info {  /* texto informativo */
+    color: white;
+    font-size: 15px;
+	margin: 55px 3px -10px 0;
+	text-align: right;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.linha { /* linha abaixo do texto informativo */
+    color: white;
+    font-size: 20px;
+	margin: 20px 0 35px 0;
+	text-align: center;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.tudo {
+   display: table;
+   margin: auto;
+   padding-left: 6px;
+}
