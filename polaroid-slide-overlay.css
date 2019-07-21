@@ -91,11 +91,6 @@ div.desc {
   overflow: hidden;
 }
 
-.text1:hover,
-.text2:hover{
-  color: red;
-}
-
 /* Texto dentro do overlay */
 .text1 {
   white-space: nowrap; 
