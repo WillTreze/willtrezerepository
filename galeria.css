@@ -74,7 +74,7 @@ overflow-x: hidden;
 .close:hover,
 .next:hover,
 .prev:hover {
-  color: yellow;
+  color: red;
   text-decoration: none;
   opacity: 1;
   cursor: pointer;
