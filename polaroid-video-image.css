@@ -51,9 +51,9 @@ div.gallery {
 
 div.desc {
   border: 0px solid rgba(0, 0, 0, 0.1);
-  padding: 10px;
+  padding: 13px;
   text-align: center;
-  font-size: 21px;
+  font-size: 22px;
   font-family: 'ZCOOL XiaoWei', serif;
  
   /* Color Font - Gradient */
@@ -117,7 +117,6 @@ div.desc {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-
 
 #loading { 
     position: absolute;
