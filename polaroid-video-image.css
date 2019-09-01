@@ -1,7 +1,7 @@
 /* ocultar barra de rolagem */
 ::-webkit-scrollbar {
-    width: 0px;
-    }
+  width: 0px;
+  }
 
 div.gallery {
   background-color: white;
@@ -56,7 +56,6 @@ div.desc {
   text-align: center;
   font-size: 22px;
   font-family: 'ZCOOL XiaoWei', serif;
- 
   /* Color Font - Gradient */
   background: -webkit-linear-gradient(#5e5e5e 40%, #5e5e5e 65%);
   -webkit-background-clip: text;
@@ -65,19 +64,19 @@ div.desc {
 
 /* centralizar o conteudo auto */
 .tudo {
-   display: table;
-   margin: auto;
-   padding-left: 0px;
-}
+  display: table;
+  margin: auto;
+  padding-left: 0px;
+  }
 
 .container {
   position: relative;
   width: 100%;
-}
+  }
 
 .container:hover .overlay-top{
   height: 100%;
-}
+  }
 
 .overlay-top {
   position: absolute;
@@ -89,7 +88,7 @@ div.desc {
   height: 0%;
   transition: 0.3s ease;
   overflow: hidden;
-}
+  }
 
 /* Texto dentro do overlay */
 .text1 {
@@ -103,7 +102,7 @@ div.desc {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-}
+  }
 
 /* Texto dentro do overlay */
 .text2 {
@@ -117,7 +116,7 @@ div.desc {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-}
+  }
 
 /* Texto dentro do overlay */
 .text3 {
@@ -131,12 +130,12 @@ div.desc {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-}
+  }
 
 #loading { 
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    width: 100px;
-}
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  }
