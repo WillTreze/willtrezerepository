@@ -1,4 +1,4 @@
-/* ocultar barra de rolagem */
+ /* ocultar barra de rolagem */
 ::-webkit-scrollbar {
   width: 0px;
   }
@@ -16,7 +16,7 @@ div.gallery {
 .responsive {
   padding: 4px;
   float: left;
-  width: 215px; /* largura do polaroid/imagem */
+  max-width: 215px; /* largura do polaroid/imagem */
   }
 
 .row {
@@ -24,22 +24,7 @@ div.gallery {
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  margin: 0px -12px 0px -14px;
-  }
-
-/* Create four equal columns that sits next to each other */
-.column {
-  -ms-flex: 50%; /* IE10 */
-  flex: 50%;
-  max-width: 100%;
-  padding: 0px 0px 0px 0px;
-  margin-left: auto;
-  margin-right: auto;
-  }
-
-.column img {
-  margin-top: 0px;
-  vertical-align: middle;
+  margin: 0 -12px 0 -5px;
   }
 
 .ObjectImage {
@@ -49,6 +34,46 @@ div.gallery {
   object-position: top;
   border-radius: 7px 7px 0 0;
   }
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  max-width: 33.33%;
+  }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+  max-width: 100%;
+  margin: auto;
+  padding: 0px 0px 10px 0px;
+  }
+.responsive {
+  margin-left: -10px;
+  float: left;
+  max-width: 250px; /* largura do polaroid/imagem */
+  }
+.ObjectImage {
+  width: 100%;
+  height: 350px;/* comprimento do polaroid/imagem */
+  object-fit: cover;
+  object-position: top;
+  }
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (min-width: 1000px) {
+ .row {
+  margin: 0 0 0 2%;
+  }
+}
 
 div.desc {
   border: 0px solid rgba(0, 0, 0, 0.1);
@@ -71,7 +96,7 @@ div.desc {
 
 .container {
   position: relative;
-  width: 100%;
+  max-width: 100%;
   }
 
 .container:hover .overlay-top{
@@ -88,6 +113,7 @@ div.desc {
   height: 0%;
   transition: 0.3s ease;
   overflow: hidden;
+  border-radius: 7px;
   }
 
 /* Texto dentro do overlay */
