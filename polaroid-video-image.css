@@ -6,6 +6,7 @@
 div.gallery {
   background-color: white;
   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.4), 1px 2px 4px hsla(134, 55%, 0%, 0.23);
+  border-radius: 7px;
   }
 
 * {
@@ -24,7 +25,6 @@ div.gallery {
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   margin: 0px -12px 0px -14px;
-  zoom: 100%;
   }
 
 /* Create four equal columns that sits next to each other */
@@ -98,7 +98,7 @@ div.desc {
   text-align: center;
   font-size: 28px;
   font-family: 'ZCOOL XiaoWei', serif;
-  top: 43%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -113,6 +113,20 @@ div.desc {
   font-size: 28px;
   font-family: 'ZCOOL XiaoWei', serif;
   top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/* Texto dentro do overlay */
+.text3 {
+  white-space: nowrap; 
+  color: #5e5e5e;
+  position: absolute;
+  text-align: center;
+  font-size: 28px;
+  font-family: 'ZCOOL XiaoWei', serif;
+  top: 43%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
