@@ -365,6 +365,3 @@
     videojs.plugin('videoJsResolutionSwitcher', videoJsResolutionSwitcher);
   })(window, videojs);
 })();
-×
-Drag and Drop
-The image will be downloaded
