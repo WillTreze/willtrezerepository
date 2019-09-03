@@ -1,3 +1,4 @@
+
 body {
   overflow: hidden;
   background-color: none;
@@ -19,7 +20,7 @@ body {
 
 .text1 {
     color: white;
-    font-size: 68px;
+    font-size: 105px;
     font-family: 'Dancing Script', cursive;
     text-shadow: 5px 5px 5px  hsla(49, 0%, 0%, 0.31);
 }
