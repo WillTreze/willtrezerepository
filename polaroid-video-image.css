@@ -158,6 +158,58 @@ div.desc {
   -ms-transform: translate(-50%, -50%);
   }
 
+.text2:hover .textFULLHD {
+  display:block;
+  }
+.text2:hover .textHD {
+  display:block;
+  }
+.text2:hover .textSD {
+  display:block;
+  }
+
+.textFULLHD {
+  white-space: nowrap;
+  display: none;  
+  color: red;
+  position: absolute;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'ZCOOL XiaoWei', serif;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  }
+ 
+.textHD {
+  white-space: nowrap;
+  display: none; 
+  color: red;
+  position: absolute;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'ZCOOL XiaoWei', serif;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  }
+ 
+.textSD {
+  white-space: nowrap;
+  display: none; 
+  color: red;
+  position: absolute;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'ZCOOL XiaoWei', serif;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  }
+ 
 #loading { 
   position: absolute;
   transform: translate(-50%, -50%);
