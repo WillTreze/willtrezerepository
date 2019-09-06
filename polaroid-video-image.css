@@ -109,8 +109,9 @@ div.desc {
   left: 0;
   right: 0;
   overflow: hidden;
-  width: 100%;
+  width: 101%;
   height: 0%;
+  margin-left: -1px;
   transition: 0.3s ease;
   overflow: hidden;
   border-radius: 7px;
