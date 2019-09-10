@@ -1,15 +1,14 @@
 /* ocultar scroll  bar */
-
 ::-webkit-scrollbar {
    width: 0px;
 }
 	
 img {
-   border: 10px solid white;
-   border-radius: 8px ;
+   border-radius: 8px;
    padding: 0px;
    background-color: white;
    width: 98%;
+   margin-bottom: 10px;
 }
 
 img:hover {
@@ -17,10 +16,20 @@ img:hover {
 }
 
 /* Mudar conteudo conforme a resolucão da tela */
+@media screen and (min-width: 1000px) {	
+img {
+  border-radius: 8px;
+  background-color: white;
+  width: 70%;
+  height: auto;
+  }
+}
+
+/* Mudar conteudo conforme a resolucão da tela */
 @media screen and (max-width: 600px) {	
 img {
-  border: 6px solid white;
-  border-radius: 4px ;
+  border-radius: 6px;
+  background-color: white;
   width: 96%;
   }
 }
