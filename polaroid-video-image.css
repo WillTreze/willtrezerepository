@@ -32,6 +32,7 @@ div.gallery {
   height: 314.3px; /* comprimento do polaroid/imagem */
   object-fit: cover;
   object-position: top;
+  margin-top: -1px;
   border-radius: 7px 7px 0 0;
   }
 
@@ -100,7 +101,7 @@ div.desc {
   }
 
 .container:hover .overlay-top{
-  height: 100%;
+  height: 101%;
   }
 
 .overlay-top {
@@ -112,6 +113,7 @@ div.desc {
   width: 101%;
   height: 0%;
   margin-left: -1px;
+  margin-top: -1px;
   transition: 0.3s ease;
   border-radius: 7px;
   }
