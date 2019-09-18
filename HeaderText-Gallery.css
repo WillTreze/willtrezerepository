@@ -19,7 +19,7 @@ body {
 
 .text1 {
     color: white;
-    font-size: 115px;
+    font-size: 105px;
     font-family: 'Dancing Script', cursive;
     text-shadow: 5px 5px 5px  hsla(49, 0%, 0%, 0.31);
 }
@@ -34,6 +34,6 @@ body {
 /* Mudar conteudo conforme a resolucão da tela */
 @media screen and (max-width: 600px) {
 .text1 {
-  font-size: 50px;
+  font-size: 65px;
   }
 }
