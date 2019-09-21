@@ -1,4 +1,3 @@
-
 .smoothscroll-top {
   position: fixed;
   opacity: 0;
@@ -6,7 +5,7 @@
   overflow: hidden;
   text-align: center;
   z-index: 98;
-  background-color: #2ba6e1;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.35);
   color: #fff;
   width: 47px;
   height: 44px;
