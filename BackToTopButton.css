@@ -19,8 +19,7 @@
 }
 
 .smoothscroll-top:hover {
-  background-color: #3eb2ea;
-  color: #fff;
+  filter: brightness(1.1);
   transition: all .2s ease-in-out;
   transition-delay: 0;
 }
