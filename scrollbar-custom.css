@@ -49,3 +49,8 @@ html[hide-scrollbar="true"] ::-webkit-scrollbar {
     width: var(--scrollbarWidthCH)  !important;
     height: var(--scrollbarWidthCH) !important;
 }
+
+
+body {
+  background: red;
+}
