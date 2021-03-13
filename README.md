@@ -1,3 +1,3 @@
-# willtrezerepository
+## My CDN
 
-My Repository Test
+`https://willtreze.github.io/willtrezerepository//` + `file-name.extension`
